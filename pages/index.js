@@ -1,5 +1,5 @@
 function Home() {
-    var msg = <h1> {"Oi nenê, te amo <3."}</h1>;
+    var msg = <h1> {"Oi isabele, escrevi essa mensagem pra você: Te amo! -- De: Gustavo Rossatto <3. Agora meu amor está em um pedacionho da internet que eu criei :)"}</h1>;
     return msg;
 }
 
