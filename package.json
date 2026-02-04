@@ -1,0 +1,15 @@
+{
+  "name": "learn-web-development",
+  "version": "1.0.0",
+  "description": "repository created to study web development with tabnews project https://github.com/filipedeschamps/tabnews.com.br",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react-dom": "^18.2.0"
+  }
+}
