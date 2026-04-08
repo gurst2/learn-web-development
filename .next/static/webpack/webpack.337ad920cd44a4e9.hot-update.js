@@ -7,23 +7,35 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-self["webpackHotUpdate_N_E"]("webpack",{},
-/******/ function(__webpack_require__) { // webpackRuntimeModules
-/******/ /* webpack/runtime/getFullHash */
-/******/ !function() {
-/******/ 	__webpack_require__.h = function() { return "9bd7451d2961ab25"; }
-/******/ }();
-/******/ 
-/******/ /* webpack/runtime/make namespace object */
-/******/ !function() {
-/******/ 	// define __esModule on exports
-/******/ 	__webpack_require__.r = function(exports) {
-/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 		}
-/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 	};
-/******/ }();
-/******/ 
-/******/ }
+self["webpackHotUpdate_N_E"](
+  "webpack",
+  {},
+  /******/ function (__webpack_require__) {
+    // webpackRuntimeModules
+    /******/ /* webpack/runtime/getFullHash */
+    /******/ !(function () {
+      /******/ __webpack_require__.h = function () {
+        return "9bd7451d2961ab25";
+      };
+      /******/
+    })();
+    /******/
+    /******/ /* webpack/runtime/make namespace object */
+    /******/ !(function () {
+      /******/ // define __esModule on exports
+      /******/ __webpack_require__.r = function (exports) {
+        /******/ if (typeof Symbol !== "undefined" && Symbol.toStringTag) {
+          /******/ Object.defineProperty(exports, Symbol.toStringTag, {
+            value: "Module",
+          });
+          /******/
+        }
+        /******/ Object.defineProperty(exports, "__esModule", { value: true });
+        /******/
+      };
+      /******/
+    })();
+    /******/
+    /******/
+  },
 );
